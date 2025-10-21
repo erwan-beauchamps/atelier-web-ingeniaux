@@ -1,2 +1,61 @@
-<h1>Bienvenue sur mon site</h1>
-<p>Ceci est un paragraphe.</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One Piece — Fanpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="index.html" class="brand">☠️ One Piece Fan</a>
+      <div>
+        <a href="index.html" class="active">Accueil</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="infos.html">Infos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="assets/equipage.jpg" alt="Luffy et l'équipage" class="hero-img">
+      <h1>Bienvenue à bord !</h1>
+      <p>Découvre l’équipage du Chapeau de paille, leurs aventures et moments cultes.</p>
+      <div class="actions">
+        <button id="bgBtn">🎨 Changer le fond</button>
+        <button id="factBtn">💡 Fun fact</button>
+      </div>
+      <p id="factBox" class="fact">Clique sur “Fun fact” pour en afficher un.</p>
+    </section>
+
+    <section>
+      <h2>Personnages mis en avant</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="assets/luffy.jpg" alt="Luffy">
+          <h3>Monkey D. Luffy</h3>
+          <p>Capitaine. Rêve de devenir Roi des Pirates.</p>
+        </article>
+        <article class="card">
+          <img src="assets/zoro.jpg" alt="Zoro">
+          <h3>Roronoa Zoro</h3>
+          <p>Épéiste aux trois sabres. Vise le titre de meilleur épéiste.</p>
+        </article>
+        <article class="card">
+          <img src="assets/nami.jpg" alt="Nami">
+          <h3>Nami</h3>
+          <p>Navigatrice. Rêve de cartographier le monde entier.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Fanpage non officielle — usage pédagogique.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
