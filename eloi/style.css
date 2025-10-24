@@ -1,0 +1,72 @@
+
+body {
+    color:blue;
+    background-image: url("assets/fond ecran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:#f7ca4e;
+    text-align: center;
+}
+.hero-img{
+    max-height:280px;
+    object-fit:cover;
+    border:1px solid blue;
+}
+
+.div0 {
+    display: flex;
+    width: 100%;
+}
+
+.div1{
+    width:100%;
+    text-align: center;
+    border-radius:20px;
+    border-color: blue;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+
+.div2{
+    width:100%;
+    text-align: center;
+    }
+
+.divdroite {
+    width:50%;
+    text-align: center;
+    }
+
+.divgauche {
+    width:50%;
+    text-align: center;
+    }
+
+.burgers-img {
+    width: 35%;
+    max-height:35%;
+}
+
+.fantome-img {
+    width: 20%;
+    max-height:20%;
+    font-size: xx-large;
+    background-color: black;
+}
+
+.div4{
+    width:100%;
+    text-align: center;
+    }
+
+.div5{
+    width:100%;
+    text-align: center;
+    }
+
+.div6{
+    width:100%;
+    text-align: center;
+    }
